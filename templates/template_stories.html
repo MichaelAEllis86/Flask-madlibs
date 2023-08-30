@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>choose a story template from the dropdown form</h1>
+
+<select form="template_form" autofocus>
+    <option name=1 value="Once upon a time in a long-ago {place}, there lived a
+    large {adjective} {noun}. It loved to {verb} {plural_noun}">Once upon a time in a long-ago {place}, there lived a
+    large {adjective} {noun}. It loved to {verb} {plural_noun}</option>
+    <option name=2 value="OMG!! OMG!! I love to {verb} a {noun}">OMG!! OMG!! I love to {verb} a {noun}</option>
+
+</select>
+<form action="/home" id="template_form">
+    <input type="submit" name="template">
+</form>
+
+
+    <!-- <form action="/home">
+        <input list="browsers" name="browser">
+        <datalist id="browsers">
+          <option value="Once upon a time in a long-ago {place}, there lived a
+          large {adjective} {noun}. It loved to {verb} {plural_noun}">
+          <option value="OMG!! OMG!! I love to {verb} a {noun}">
+        </datalist>
+        <input type="submit">
+      </form> -->
+</body>
+</html>
